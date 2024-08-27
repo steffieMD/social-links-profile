@@ -100,6 +100,13 @@ p {
   width: 100%;
   padding: 0.625rem 0;
   border-radius: 0.65rem;
+  font-size: var(--font-size-text-preset-3);
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  background-color: var(--Green);
+  color: var(--Grey-900);
 }
 
 .attribution {
@@ -108,4 +115,10 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 2.5rem;
+  }
 }
